@@ -1,0 +1,11 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+group :thirdparty do
+    cookbook  'apt', '~> 2.6'
+    cookbook  'java', '~> 1.36.0'
+    cookbook  'newrelic', '~> 2.17.0'
+    cookbook  'nginx', '~> 2.7.6'
+    cookbook  'elasticsearch', '~> 0.3.14'
+end

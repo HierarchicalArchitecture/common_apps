@@ -1,0 +1,13 @@
+name 'common_apps'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures common_apps'
+long_description 'Installs/Configures common_apps'
+version '0.1.0'
+
+depends  'apt', '~> 2.6'
+depends  'java', '~> 1.36.0'
+depends  'newrelic', '~> 2.17.0'
+depends  'nginx', '~> 2.7.6'
+depends  'elasticsearch', '~> 0.3.14'
